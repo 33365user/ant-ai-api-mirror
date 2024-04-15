@@ -1,0 +1,4 @@
+FROM python:3.11.6
+LABEL authors="jerry"
+# I have no clue if this works...as I haven' tried it, but this would make sense.
+ENTRYPOINT ["top", "-b"]
